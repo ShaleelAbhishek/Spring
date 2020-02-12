@@ -1,0 +1,10 @@
+package com.abhi.employee.repository;
+
+
+
+import com.abhi.employee.model.Employee;
+import org.springframework.data.jpa.repository.JpaRepository;
+
+public interface EmployeeRepository extends JpaRepository<Employee,Integer> {
+
+}
