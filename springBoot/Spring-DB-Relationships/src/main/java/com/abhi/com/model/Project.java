@@ -6,6 +6,7 @@ import java.util.List;
 /**
  * Created by Shaleel on 2/11/2020.
  */
+@Entity
 public class Project {
 
     @Id
@@ -23,12 +24,14 @@ public class Project {
     public void setId(Integer id) {
         this.id = id;
     }
+
     public String getProjectName() {
         return projectName;
     }
     public void setProjectName(String projectName) {
         this.projectName = projectName;
     }
+
     public List<Employee> getEmployees() {
         return employees;
     }

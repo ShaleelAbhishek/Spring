@@ -27,12 +27,14 @@ public class Telephone {
     public void setId(Integer id) {
         this.id = id;
     }
+
     public String getTelephoneNumber() {
         return telephoneNumber;
     }
     public void setTelephoneNumber(String telephoneNumber) {
         this.telephoneNumber = telephoneNumber;
     }
+
     public Employee getEmployee() {
         return employee;
     }
